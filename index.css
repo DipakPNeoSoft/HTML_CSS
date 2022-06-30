@@ -59,7 +59,7 @@ display: inline;
     color: azure;
    
 }
-#download{
+#downloadButton{
     border: 2px solid black;
     padding: 1px;
 }
@@ -83,7 +83,7 @@ display: inline;
     margin-top: 30px;
     
 }
-#contact{
+.contactButton{
     margin-left: 130px ;
     background-color: rgb(142, 235, 142);
     padding: 10px;
@@ -117,7 +117,7 @@ display: inline;
 }
 
 
-#rowing{
+#StepsOfWorking{
     width: 100%;
     height: 450px;
     background-image: url("rowing.jpg");
@@ -286,6 +286,7 @@ display: inline;
 }
 #appointButton{
     margin-top: 40px;
+
 }
 
 #Address{
@@ -356,4 +357,9 @@ a:active {
     /* active */
     color: blue;
     text-decoration: none;
+}
+
+button:hover{
+    background-color: aqua;
+
 }
