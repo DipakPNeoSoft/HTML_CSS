@@ -1,70 +1,77 @@
-html,body {
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-#Title{
+#Title {
     display: inline;
     float: left;
     margin-left: 100px;
-   
+
 }
-#Brandname1{
+
+#Brandname1 {
     font-size: 70px;
     display: inline;
-    
-   
+
+
     color: rgb(56, 209, 56);
 }
 
-#Brandname2{
+#Brandname2 {
     color: black;
     display: inline;
     font-size: 30px;
-   
-}
-#tagline{
-color: black;
-font-size: 19px;
-letter-spacing: 4px;
-display: inline;
 
 }
 
-#Mobile{
+#tagline {
+    color: black;
+    font-size: 19px;
+    letter-spacing: 4px;
+    display: inline;
+
+}
+
+#Mobile {
     float: right;
     display: inline;
     margin-right: 15em;
     margin-top: 10px;
-    
+
 }
 
 
-#Nav{
-    
+#Nav {
+
     float: right;
     color: black;
     margin-top: 2rem;
     margin-right: 15em;
-   
+
 }
 
-#ad1{
-    clear: both; float: left; display: block; position: relative;
+#ad1 {
+    clear: both;
+    float: left;
+    display: block;
+    position: relative;
     margin-top: 10px;
     height: 100px;
     background-color: rgb(59, 57, 57);
     width: 100%;
     color: azure;
-   
+
 }
-#downloadButton{
+
+#downloadButton {
     border: 2px solid black;
     padding: 1px;
 }
 
-#father_son{
+#father_son_Image {
     color: black;
     width: 100%;
     height: 400px;
@@ -74,25 +81,26 @@ display: inline;
     background-size: cover;
     padding-top: 70px;
     padding-bottom: 150px;
-    
 
-}  
 
-#phototext{
+}
+
+#phototext {
     margin-left: 450px;
     margin-top: 30px;
-    
+
 }
-.contactButton{
-    margin-left: 130px ;
+
+.contactButton {
+    margin-left: 130px;
     background-color: rgb(142, 235, 142);
     padding: 10px;
     color: white;
 }
 
-#playButton{
+#playButton {
     width: 125px;
-    
+
     display: inline;
     margin-bottom: 400px;
     margin-left: 250px;
@@ -103,11 +111,12 @@ display: inline;
 
 }
 
-#aboutUs{
+#aboutUs {
     display: flex;
     margin-top: 10px;
 }
-#Download{
+
+#Download {
     padding: 15px;
     background-color: rgb(43, 44, 43);
     color: white;
@@ -117,7 +126,7 @@ display: inline;
 }
 
 
-#StepsOfWorking{
+#StepsOfWorking {
     width: 100%;
     height: 450px;
     background-image: url("rowing.jpg");
@@ -129,6 +138,7 @@ display: inline;
     filter: saturate(2);
     opacity: 0.8;
 }
+
 .numberCircle {
     border-radius: 50%;
     width: 50px;
@@ -139,22 +149,23 @@ display: inline;
     border: 2px solid rgb(42, 185, 13);
     color: rgb(33, 175, 28);
     text-align: center;
-    
+
 
     font: 32px Arial, sans-serif;
 }
-.Nos{
+
+.Numbers {
     margin-left: 250px;
     margin-top: 40px;
 }
 
-#rows{
+#rows {
     padding-top: 50px;
 }
 
-#popInto{
+#popInto {
     border: solid 2px green;
-    padding:20px;
+    padding: 20px;
     margin-left: 380px;
     background-color: white;
     font-size: 20px;
@@ -168,43 +179,45 @@ display: inline;
     padding: 10px;
     border: solid 1px aliceblue;
     background-color: aliceblue;
-  }
-  
-  
+}
+
+
 .row {
     padding: 10px;
     text-align: center;
     margin-left: 250px;
-    
-    
+
+
 }
-  
-.userImage{
+
+.userImage {
     height: 80px;
     width: 80px;
     border: 1px solid black;
     border-radius: 80px;
-    
+
 }
-.getStarted{
+
+.getStarted {
     padding: 10px;
     background-color: greenyellow;
     color: white;
     width: 200px;
     border-color: yellowgreen;
 }
-#card2{
+
+#card2 {
     margin-left: 8px;
 }
 
-.section1{
+.Who_Are_We {
     margin-top: 40px;
-    
+
 
 }
 
-.clients{
-    
+.clients {
+
     background-image: url('hut_sea.jpg');
     background-size: cover;
     background-position: center;
@@ -213,13 +226,13 @@ display: inline;
     text-align: center;
     color: black;
     padding-top: 50px;
-    
-    
-   
+
+
+
 }
 
- 
-#girl{
+
+#girl {
     margin-top: 30px;
     height: 150px;
     width: 150px;
@@ -227,7 +240,7 @@ display: inline;
     border-radius: 100px;
 }
 
-.posts{
+.posts {
     float: left;
     width: 300px;
     height: 350px;
@@ -235,18 +248,19 @@ display: inline;
     margin-left: 10px;
 }
 
-.posts > img{
+.posts>img {
     text-align: center;
     height: 200px;
     width: 250px;
-    
+
     padding: 5px;
 }
-.BlogContent{
+
+.BlogContent {
     text-align: center;
 }
 
-.posts > button{
+.posts>button {
     padding: 10px;
     margin-left: 20px;
     border-color: green;
@@ -254,27 +268,33 @@ display: inline;
 
 }
 
-#ad2{
-    clear: both; float: left; display: block; position: relative;
+#ad2 {
+    clear: both;
+    float: left;
+    display: block;
+    position: relative;
     margin-top: 60px;
     height: 100px;
     background-color: rgb(59, 57, 57);
     width: 100%;
     color: azure;
 }
+
 .Contact {
     width: 100%;
     height: 250px;
-   
+
     display: flex;
     background-color: rgb(36, 34, 34);
 }
+
 .Contact div {
     clear: left;
-    -ms-flex: 1;  
-    flex: 1;  
+    -ms-flex: 1;
+    flex: 1;
 }
-.appointment{
+
+.appointment {
     padding: 10px;
     color: rgb(5, 5, 5);
     background-color: greenyellow;
@@ -284,17 +304,18 @@ display: inline;
     margin-left: 20px;
     opacity: 0.8;
 }
-#appointButton{
+
+#appointButton {
     margin-top: 40px;
 
 }
 
-#Address{
+#Address {
     text-align: left;
     height: 300px;
 }
 
-#Address > div{
+#Address>div {
     margin-left: 80px;
     color: white;
     margin-right: 30px;
@@ -302,30 +323,32 @@ display: inline;
 
 #Address div:nth-of-type(2) {
     flex-basis: 20px;
-   
+
     margin-left: 2px;
 }
 
 #Address div:nth-of-type(1) {
     flex-basis: 2px;
-    
-    
+
+
     margin-left: 150px;
 }
+
 #Address div:nth-of-type(3) {
     flex-basis: 20px;
- 
+
     margin-left: 5px;
     margin-right: 100px;
 }
-#socialMedia{
-    
+
+#socialMedia {
+
     display: inline;
     margin-right: 10px;
-    
+
 }
 
-footer{
+footer {
     color: white;
     height: 30px;
     padding-top: 10px;
@@ -337,29 +360,29 @@ a:link {
     color: red;
     text-decoration: none;
 }
-  
- 
+
+
 a:visited {
     /* visited */
     color: green;
     text-decoration: none;
 }
-  
- 
+
+
 a:hover {
     /* hover */
     color: hotpink;
     text-decoration: none;
 }
-  
-  
+
+
 a:active {
     /* active */
     color: blue;
     text-decoration: none;
 }
 
-button:hover{
+button:hover {
     background-color: aqua;
 
 }
