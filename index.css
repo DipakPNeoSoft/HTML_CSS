@@ -8,38 +8,19 @@ body {
 #Title {
     display: inline;
     float: left;
-    margin-left: 100px;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 
 }
 
-#Brandname1 {
-    font-size: 70px;
-    display: inline;
 
-
-    color: rgb(56, 209, 56);
-}
-
-#Brandname2 {
-    color: black;
-    display: inline;
-    font-size: 30px;
-
-}
-
-#tagline {
-    color: black;
-    font-size: 19px;
-    letter-spacing: 4px;
-    display: inline;
-
-}
 
 #Mobile {
     float: right;
     display: inline;
     margin-right: 15em;
-    margin-top: 10px;
+    margin-top: 25px;
 
 }
 
@@ -48,10 +29,12 @@ body {
 
     float: right;
     color: black;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 15em;
 
 }
+
+
 
 #ad1 {
     clear: both;
@@ -60,7 +43,7 @@ body {
     position: relative;
     margin-top: 10px;
     height: 100px;
-    background-color: rgb(59, 57, 57);
+    background-color: rgb(133, 130, 130);
     width: 100%;
     color: azure;
 
@@ -364,7 +347,7 @@ a:link {
 
 a:visited {
     /* visited */
-    color: green;
+    color: rgb(87, 90, 87);
     text-decoration: none;
 }
 
@@ -378,7 +361,7 @@ a:hover {
 
 a:active {
     /* active */
-    color: blue;
+    color: rgb(71, 75, 73);
     text-decoration: none;
 }
 
